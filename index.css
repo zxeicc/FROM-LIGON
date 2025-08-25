@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #1abc9c;
+overflow: hidden;
+
+}
+.TOT{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+}
+.login{
+    background-color: #fff;
+    
+    width: 100%;
+    
+    border-radius: 6px;
+
+}
+
+.TAT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    background: #16a085;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 25px;
+    color: #fff;
+}
+.BOD{
+    padding: 10px;
+    padding-top: 23px;
+}
+.ph{
+    margin-bottom: 15px;
+    position: relative;
+
+    height: 45px;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+
+
+
+}
+.ph input {
+    width: 100%;
+    height: 100%;
+    padding-left: 65px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3S ease;
+
+
+}
+
+.ph i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    background: #16a085;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #16a085  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.np{
+    margin-bottom:19px ;
+}
+.np a{
+    color: #16a085;
+    text-decoration: none;
+    transition: 0.2S;
+
+}
+.np a:hover{
+text-decoration: underline;
+font-size: 17px;
+}
+.SIG{
+    margin-bottom:19px ;
+    text-align: center;
+ } 
+ 
+ .L input{
+    margin-top: 2px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .L input:hover{
+    background-color: #0d5a4a;
+    
+  }
+.SIG a{
+    color: #16a085;
+    text-decoration: none;
+    transition: 0.2S;
+    
+
+}
+.SIG a:hover{
+text-decoration: underline;
+font-size: 17px;
+}
+.ph input:focus {
+    border-color: #16a085;
+  }
+.ph input::placeholder {
+    color: #999;
+  }
